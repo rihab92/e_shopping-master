@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="tn.iit.e_shopping.Activity.Acceuil"
+    tools:showIn="@layout/activity_acceuil">
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress"
+        
+        android:translationZ="2dp"
+        android:layout_alignBottom="@+id/bt_quitter"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recherche de produit"
+        android:id="@+id/bt_recherche_produit"
+
+        android:layout_marginBottom="20dp"
+        android:icon="@drawable/search"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter un Produit"
+        android:id="@+id/bt_ajouter_produit"
+        android:layout_below="@+id/bt_recherche_produit"
+        android:icon="@drawable/add"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mise a jour"
+        android:id="@+id/bt_mise_ajour"
+        android:layout_below="@+id/bt_ajouter_produit"
+        android:icon="@drawable/update"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liste de produit"
+        android:id="@+id/bt_liste_de_produit"
+        android:icon="@drawable/list"
+
+        android:layout_below="@+id/bt_mise_ajour"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quitter"
+        android:icon="@drawable/quit"
+        android:id="@+id/bt_quitter"
+        android:layout_below="@+id/bt_liste_de_produit"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp" />
+
+
+
+
+</RelativeLayout>

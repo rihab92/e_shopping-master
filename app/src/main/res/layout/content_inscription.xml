@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="tn.iit.e_shopping.Activity.Inscription"
+    tools:showIn="@layout/activity_inscription">
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <!-- View Title Label -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dip"
+                android:text="Inscription"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:textColor="#DC143C"
+                />
+            <!-- nom Label -->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Nom:"
+                android:textColor="#0000FF"
+                android:textStyle="italic"
+                />
+            <!-- nom TextField -->
+            <EditText
+                android:id="@+id/txt_ins_nom"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                />
+            <!-- prenom Label -->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Prenom:"
+                android:textColor="#0000FF"
+                android:textStyle="italic"
+                />
+            <!-- prenom TextField -->
+            <EditText
+                android:id="@+id/txt_ins_prenom"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                />
+            <!-- tel Label -->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Adresse:"
+                android:textColor="#0000FF"
+                android:textStyle="italic"
+                />
+            <!-- prenom TextField -->
+            <EditText
+                android:id="@+id/txt_ins_adresse"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                />
+            <!-- login de passe Label -->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Login:"
+                android:textColor="#0000FF"
+                android:textStyle="italic"
+                />
+            <!-- login de passe TextField -->
+            <EditText
+                android:id="@+id/txt_ins_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                />
+            <!-- mot de passe Label -->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Mot de passe:"
+                android:textColor="#0000FF"
+                android:textStyle="italic"
+                />
+            <!-- mot de passe TextField -->
+            <EditText
+                android:id="@+id/txt_ins_pwd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                />
+            <!-- email Label -->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="E_mail:"
+                android:textColor="#0000FF"
+                android:textStyle="italic"
+                />
+            <!-- email TextField -->
+            <EditText
+                android:id="@+id/txt_ins_email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                />
+            <!--  Register Button -->
+            <Button
+                android:id="@+id/bt_Register"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:text="Inscription" />
+
+            <!--  Link to Login Screen -->
+            <Button
+                android:id="@+id/btnLinkToLoginScreen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dip"
+                android:background="@null"
+                android:text="Login!"
+                android:textColor="#21dbd4"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

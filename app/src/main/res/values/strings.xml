@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">E-shopping</string>
+    <string name="title_activity_maps">E-shopping</string>
+    <string name="title_activity_ajouter_produit">AjouterProduit</string>
+    <string name="title_activity_recherche_produit">RechercheProduit</string>
+    <string name="title_activity_listes_produit">ListesProduit</string>
+    <string name="title_activity_inscription">Inscription</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_information_produit">InformationProduit</string>
+    <string name="title_activity_main2">MainActivity2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_resultat__recherche">Map</string>
+    <string name="title_activity_acceuil">Acceuil</string>
+    <string name="title_activity_resultat_recherche">Map</string>
+</resources>
